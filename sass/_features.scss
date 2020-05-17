@@ -1,0 +1,28 @@
+.features {
+
+       padding: 20px;
+
+       padding-bottom: 50px;
+
+       &_description {
+              color: $medium-blue;
+              padding-bottom: 30px;
+
+              &--last {
+                     color: $dark-blue;
+              }
+       }
+
+       h2 {
+              color: white;
+       }
+
+
+
+       h6 {
+              color: $title-color;
+              font-size: 16px;
+              font-weight: 500;
+              font-family: $primary-font;
+       }
+}

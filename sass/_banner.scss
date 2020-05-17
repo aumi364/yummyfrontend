@@ -1,0 +1,15 @@
+.banner {
+       height: 100vh;
+
+       h2 {
+              color: $light-blue;
+       }
+
+       &_description {
+              color: $medium-blue;
+
+              &--last {
+                     color: $dark-blue;
+              }
+       }
+}
